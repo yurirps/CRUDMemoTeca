@@ -1,6 +1,8 @@
 # CRUDMemoTeca
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+Typescript: 4.8.4
+Node: v16.14.2
 
 ## Development server
 
