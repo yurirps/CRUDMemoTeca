@@ -27,3 +27,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Run backend
+
+Simulação simples de back-end com uma ferramenta chamada JSON Server — uma biblioteca capaz de criar um REST JSON simulando uma API.
+Basta instalá-la e criar um arquivo .json, expondo as informações na API REST.
+Acessar a pasta do projeto CRUDMEMOTECA, e dentro dela criar a pasta backend e acessar ela.
+
+Dentro da pasta backend, executar o comando `npm init -y`  para criar o arquivo package.json.
+
+Em seguida, instalar o JSON Server com este comando `npm i json-server@0.17.4`
+
+Para rodar o backend, utilize o comando - `npm start`
+ 
+
