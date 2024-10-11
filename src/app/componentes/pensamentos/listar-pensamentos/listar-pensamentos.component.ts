@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Pensamento } from '../pensamento';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-listar-pensamentos',
@@ -7,28 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListarPensamentosComponent implements OnInit {
 
-  listaPensamentos = [
-    {
-      conteudo: 'Estudando Anglar',
-      autoria: 'Yuri',
-      modelo: 'modelo2'
-    },
-    {
-      conteudo: 'aprimorando novas stacks',
-      autoria: 'Yu',
-      modelo: 'modelo3'
-    },
+  listaPensamentos: Pensamento[] = [];
 
-    {
-      conteudo: ' O Angular 14 traz melhorias significativas para desenvolvedores, incluindo componentes autônomos, que permitem uma estrutura mais modular e independente, além de aprimoramentos em formulários reativos, suporte a tipagem estrita no router, melhorias de desempenho e atualizações na compatibilidade com o TypeScript',
-      autoria: 'Lero lero',
-      modelo: 'modelo1'
-    }
-  ];
-
-  constructor() { }
+  constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos
+    })
   }
 
 }
