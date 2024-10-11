@@ -1,34 +1,64 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Nay",
-      "modelo": "modelo1"
-    },
-    {
-      "id": 2,
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
-    },
-    {
-      "id": 3,
-      "conteudo": "Angular é o melhor'",
-      "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Teste criar pensamento",
-      "autoria": "Angular",
-      "modelo": "modelo1",
-      "id": 4
-    },
-    {
       "conteudo": "Os anjos nos deram a comida; os demônios, o tempero.",
       "autoria": "Sanji",
       "modelo": "modelo2",
       "id": 5
+    },
+    {
+      "conteudo": "A lamina mais forte é aquela que pode proteger o que você quer proteger e cortar aquilo que você quer cortar.",
+      "autoria": "Roronoa Zoro",
+      "modelo": "modelo3",
+      "id": 6
+    },
+    {
+      "conteudo": "Eu sou o homem que vai se tornar o rei dos piratas!",
+      "autoria": "Luffy",
+      "modelo": "modelo1",
+      "id": 7
+    },
+    {
+      "conteudo": "Não há limites para o poder de uma pessoa quando ela quer salvar alguém.",
+      "autoria": "Nami",
+      "modelo": "modelo2",
+      "id": 8
+    },
+    {
+      "conteudo": "Tolos que não respeitam o passado tendem a repeti-lo.",
+      "autoria": "Nico Robin",
+      "modelo": "modelo1",
+      "id": 9
+    },
+    {
+      "conteudo": "Eu percebi que naquela época, a razão pela qual eu queria me tornar humano, era que eu realmente só queria ter amigos. Agora, eu só quero ser um monstro que pode ajudar Luffy.”",
+      "autoria": "Tony Chopper",
+      "modelo": "modelo2",
+      "id": 10
+    },
+    {
+      "conteudo": "⁠Chega um momento em que um homem deve se manter de pé e lutar. Esse momento é quando alguém ri dos sonhos de seus amigos.",
+      "autoria": "Usopp",
+      "modelo": "modelo1",
+      "id": 11
+    },
+    {
+      "conteudo": "Se você quer criar uma nova era, não precisa de uma razão. Basta ter uma vontade",
+      "autoria": "Franky",
+      "modelo": "modelo2",
+      "id": 12
+    },
+    {
+      "conteudo": "A vida é curta demais para ficar lamentando. Viva com paixão e sem arrependimentos.",
+      "autoria": "Brook",
+      "modelo": "modelo3",
+      "id": 13
+    },
+    {
+      "conteudo": "A verdadeira força está em proteger aqueles que você ama, mesmo que isso signifique sacrificar sua própria vida",
+      "autoria": "Jinbei",
+      "modelo": "modelo3",
+      "id": 14
     }
   ]
 }
